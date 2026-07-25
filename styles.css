@@ -271,6 +271,33 @@ img { max-width: 100%; display: block; }
   background: var(--btn);
 }
 
+/* ===== Blog post gallery ===== */
+
+.post-card {
+  display: block;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+  color: var(--ink);
+}
+
+.post-card:hover { transform: translateY(-3px); }
+
+.post-card img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.post-card h3 {
+  margin: 0;
+  padding: 16px 18px;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
 .border-red, .border-blue, .border-green, .border-orange, .border-purple {
   border-color: var(--btn-light);
 }

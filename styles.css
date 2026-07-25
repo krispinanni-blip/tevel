@@ -488,32 +488,6 @@ img { max-width: 100%; display: block; }
 
 .site-footer .social-link { color: var(--ink); }
 
-form.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.contact-form label {
-  font-weight: 700;
-  margin-bottom: 4px;
-  display: block;
-}
-
-.contact-form input, .contact-form textarea {
-  width: 100%;
-  padding: 12px 16px;
-  border-radius: var(--radius-sm);
-  border: 3px solid #E5E1F0;
-  font-family: inherit;
-  font-size: 1rem;
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-  outline: none;
-  border-color: var(--blue);
-}
-
 table.tour-table {
   width: 100%;
   border-collapse: collapse;

@@ -10,20 +10,6 @@
   }
 })();
 
-// ===== טופס יצירת קשר (ללא שליחה בפועל) =====
-(function () {
-  const form = document.getElementById('contactForm');
-  if (!form) return;
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const note = document.getElementById('formNote');
-    if (note) {
-      note.textContent = '💌 תודה! (זו הדגמה בלבד - הטופס עדיין לא מחובר לשירות שליחה אמיתי)';
-    }
-    form.reset();
-  });
-})();
-
 // ===== משחק זיכרון =====
 (function () {
   const grid = document.getElementById('memoryGrid');

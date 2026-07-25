@@ -1,0 +1,74 @@
+<svg viewBox="0 0 400 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="דמות מצוירת של תבל, זמרת ילדים, מחזיקה גיטרה">
+  <defs>
+    <radialGradient id="furGrad" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#E4D5F0"/>
+      <stop offset="100%" stop-color="#D6C6E8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shadow -->
+  <ellipse cx="200" cy="420" rx="110" ry="16" fill="#55506A" opacity="0.08"/>
+
+  <!-- body -->
+  <path d="M200 90 C290 90 330 170 320 260 C312 335 270 400 200 400 C130 400 88 335 80 260 C70 170 110 90 200 90 Z" fill="url(#furGrad)"/>
+
+  <!-- belly -->
+  <ellipse cx="200" cy="290" rx="78" ry="70" fill="#FBF6EC"/>
+
+  <!-- world/globe patch on belly -->
+  <circle cx="200" cy="280" r="34" fill="#C6DDB4"/>
+  <path d="M172 268c10-6 22-8 28-4 8 5-2 10-10 8-6-2-14 0-18 4z" fill="#A8CB90"/>
+  <path d="M206 300c8-4 20-2 24 4 4 6-8 8-16 4-6-3-10-4-8-8z" fill="#A8CB90"/>
+  <ellipse cx="200" cy="280" rx="34" ry="34" fill="none" stroke="#A8CB90" stroke-width="3" opacity="0.5"/>
+  <path d="M166 280 h68 M200 246 v68" stroke="#A8CB90" stroke-width="2" opacity="0.35"/>
+
+  <!-- ears -->
+  <circle cx="120" cy="110" r="34" fill="#D6C6E8"/>
+  <circle cx="120" cy="110" r="18" fill="#F2CBA0"/>
+  <circle cx="280" cy="110" r="34" fill="#D6C6E8"/>
+  <circle cx="280" cy="110" r="18" fill="#F2CBA0"/>
+
+  <!-- head tuft -->
+  <path d="M180 62 q20-40 40 0 q10 22-10 30 q-30 6-30-30z" fill="#F6E2A8"/>
+
+  <!-- eyes -->
+  <circle cx="168" cy="180" r="30" fill="#FFFEFA"/>
+  <circle cx="232" cy="180" r="30" fill="#FFFEFA"/>
+  <circle cx="172" cy="184" r="14" fill="#55506A"/>
+  <circle cx="236" cy="184" r="14" fill="#55506A"/>
+  <circle cx="177" cy="178" r="4" fill="#FFFEFA"/>
+  <circle cx="241" cy="178" r="4" fill="#FFFEFA"/>
+
+  <!-- cheeks -->
+  <circle cx="140" cy="220" r="14" fill="#EFB0AA" opacity="0.55"/>
+  <circle cx="260" cy="220" r="14" fill="#EFB0AA" opacity="0.55"/>
+
+  <!-- nose + smile -->
+  <ellipse cx="200" cy="208" rx="12" ry="9" fill="#F2CBA0"/>
+  <path d="M170 222 q30 26 60 0" stroke="#55506A" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- arms -->
+  <path d="M96 250 q-40 20-30 70" stroke="#D6C6E8" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M304 250 q40 10 36 62" stroke="#D6C6E8" stroke-width="26" fill="none" stroke-linecap="round"/>
+
+  <!-- guitar -->
+  <g transform="translate(230,255) rotate(18)">
+    <rect x="-10" y="-70" width="16" height="80" rx="6" fill="#E4C878"/>
+    <circle cx="-2" cy="20" r="46" fill="#F6E2A8"/>
+    <circle cx="-2" cy="20" r="46" fill="none" stroke="#E4C878" stroke-width="6"/>
+    <circle cx="-2" cy="20" r="16" fill="#B9A4D4"/>
+    <line x1="-2" y1="-70" x2="-2" y2="60" stroke="#B9A4D4" stroke-width="2"/>
+  </g>
+
+  <!-- musical notes -->
+  <g fill="#B7DCE8">
+    <circle cx="340" cy="150" r="10"/>
+    <rect x="348" y="100" width="5" height="52"/>
+    <circle cx="60" cy="330" r="9" fill="#EFB0AA"/>
+    <rect x="67" y="286" width="4" height="46" fill="#EFB0AA"/>
+  </g>
+
+  <!-- feet -->
+  <ellipse cx="165" cy="404" rx="26" ry="14" fill="#B9A4D4"/>
+  <ellipse cx="235" cy="404" rx="26" ry="14" fill="#B9A4D4"/>
+</svg>

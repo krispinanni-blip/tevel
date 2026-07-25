@@ -485,6 +485,7 @@ img { max-width: 100%; display: block; }
 .social-instagram { background: linear-gradient(45deg, #F2CBA0, #EFB0AA, #D6C6E8, #B7DCE8); }
 .social-facebook { background: #B7DCE8; }
 .social-tiktok { background: #D9D4C8; }
+.social-whatsapp { background: #A8CB90; }
 
 .site-footer .social-link { color: var(--ink); }
 

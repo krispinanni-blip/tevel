@@ -34,7 +34,7 @@
 * { box-sizing: border-box; }
 
 a, button, .btn, .card, .memory-tile, .simon-pad, .nav-toggle, .social-link {
-  cursor: url('images/cursor-logo-v2.png') 8 8, pointer;
+  cursor: url('images/cursor-logo-sq.png') 4 4, pointer;
 }
 
 html { scroll-behavior: smooth; }

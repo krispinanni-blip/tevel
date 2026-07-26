@@ -107,7 +107,6 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius-sm);
   font-size: 1.6rem;
   padding: 8px 14px;
-  cursor: pointer;
   box-shadow: var(--shadow-sm);
 }
 
@@ -160,7 +159,6 @@ img { max-width: 100%; display: block; }
   color: var(--ink);
   box-shadow: var(--shadow);
   border: none;
-  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -370,7 +368,6 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   color: var(--white);
   box-shadow: var(--shadow-sm);
   user-select: none;
@@ -407,7 +404,6 @@ img { max-width: 100%; display: block; }
   aspect-ratio: 1;
   border-radius: var(--radius-md);
   border: none;
-  cursor: pointer;
   opacity: 0.88;
   box-shadow: var(--shadow-sm);
   transition: opacity 0.4s ease;
